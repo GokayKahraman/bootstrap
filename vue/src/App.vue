@@ -1,29 +1,107 @@
 <template>
   <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a href="#" class="navbar-brand"><img src="./img/udemy-logo.jpg" style="width: 60px;"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ac"><span class="navbar-toggler-icon"></span></button>
-      
-      <div class="collapse navbar-collapse" id="ac">
-        <ul class="navbar-nav mr-5">
-          <li class="nav-item">
-            <a href="#" class="nav-link">gökay kahraman</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">gökay kahraman</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">gökay kahraman</a>
-          </li>
-        </ul>
-        <form class="form-inline">
-          <input class="form-control">
-          <button class="btn btn-outline-success">ara</button>
-        </form>
-      </div>
-      
-    </nav>
-</div>
+    <h1>İlerleme Çubuğu (Progress)</h1>
+		<hr>
+
+    <div class="progress">
+      <div class="progress-bar" style="width: 25%">%25</div>
+    </div>
+
+    <br>
+
+    <div class="progress">
+      <div class="progress-bar" style="width: 50%">%50</div>
+    </div>
+
+     <br>
+
+     <div class="progress">
+      <div class="progress-bar" style="width: 75%">%75</div>
+    </div>
+
+     <br>
+
+    <div class="progress">
+      <div class="progress-bar" style="width: 100%">%100</div>
+    </div>
+
+    <hr>
+
+    <div class="progress">
+      <div class="progress-bar bg-success" style="width: 25%">%25</div>
+    </div>
+
+    <br>
+
+    <div class="progress">
+      <div class="progress-bar bg-danger" style="width: 50%">%50</div>
+    </div>
+
+     <br>
+
+     <div class="progress">
+      <div class="progress-bar bg-info" style="width: 75%">%75</div>
+    </div>
+
+     <br>
+
+    <div class="progress">
+      <div class="progress-bar bg-dark" style="width: 100%">%100</div>
+    </div>
+
+    <h4>Striped</h4>
+
+     <hr>
+
+    <div class="progress">
+      <div class="progress-bar bg-success progress-bar-striped" style="width: 25%">%25</div>
+    </div>
+
+    <br>
+
+    <div class="progress">
+      <div class="progress-bar bg-danger progress-bar-striped" style="width: 50%">%50</div>
+    </div>
+
+     <br>
+
+     <div class="progress">
+      <div class="progress-bar bg-info progress-bar-striped" style="width: 75%">%75</div>
+    </div>
+
+     <br>
+
+    <div class="progress">
+      <div class="progress-bar bg-dark progress-bar-striped " style="width: 100%; height: 40px;">%100</div>
+    </div>
+
+     <h4>Animated</h4>
+
+     <hr>
+
+    <div class="progress">
+      <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width: 25%">%25</div>
+    </div>
+
+    <br>
+
+    <div class="progress">
+      <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" style="width: 50%">%50</div>
+    </div>
+
+     <br>
+
+     <div class="progress">
+      <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" style="width: 75%">%75</div>
+    </div>
+
+     <br>
+
+    <div class="progress">
+      <div class="progress-bar bg-dark progress-bar-striped progress-bar-animated" style="width: 100%">%100</div>
+    </div>
+
+  </div>
 </template>
 
 <script>
